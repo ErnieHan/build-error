@@ -1,0 +1,90 @@
+.filter-aside-wrap {
+  width: 250px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  border-right: 1px solid #e9e8e7;
+  display: flex;
+  flex-direction: column;
+
+  .aside-head {
+    position: relative;
+  }
+  .aside-body {
+    flex-grow: 1;
+    overflow-y: auto;
+
+    .option-wrap {
+      position: relative;
+
+      > .title-wrap {
+        padding: 10px;
+        cursor: pointer;
+        transition: color 300ms ease;
+
+        .selections {
+          color: tan;
+          font-size: 12px;
+        }
+      }
+
+      > .content-scroll-wrap {
+        max-height: 0;
+        overflow: hidden;
+        transition: all 600ms ease;
+
+        .content-wrap {
+          opacity: 0;
+          transition: opacity 600ms;
+        }
+      }
+
+      &.active {
+        > .content-scroll-wrap {
+          max-height: 2500px;
+
+          .content-wrap {
+            opacity: 1;
+          }
+        }
+      }
+    }
+  }
+  .aside-foot {
+    position: relative;
+  }
+}
+
+.select-country {
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid #e9e8e7;
+  outline: 0;
+  padding: 12px;
+  appearance: none;
+  cursor: pointer;
+}
+
+.main-section-wrap {
+  padding-left: 250px;
+}
+
+.country-tax-table {
+  width: 100%;
+  border-collapse: collapse;
+
+  th {
+    padding: 10px;
+    font-weight: normal;
+    border-bottom: 1px solid #111;
+  }
+
+  td {
+    padding: 10px;
+    font-weight: normal;
+    text-align: center;
+  }
+}
+
+

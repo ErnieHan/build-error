@@ -1,0 +1,68 @@
+.socket-wrapper {
+  padding: 35px;
+
+  .content {
+    margin-bottom: 12px;
+  }
+
+  .send-btn {
+    border-radius: 5px;
+    min-width: 120px;
+    padding: 12px;
+    background-color: #111;
+    color: #fff;
+    font-size: 12px;
+    margin-bottom: 12px;
+
+    &:hover {
+      opacity: 0.85;
+    }
+  }
+
+  .download-btn {
+    border-radius: 5px;
+    min-width: 120px;
+    padding: 12px;
+    background-color: #87d068;
+    color: #fff;
+    font-size: 12px;
+    margin-bottom: 12px;
+    font-weight: 100;
+  }
+}
+
+.file-uploader-area {
+  margin: 16px 0;
+  width: 100%;
+  padding: 16px;
+  border: 1px dashed #d9d9d9;
+  display: inline-block;
+  background-color: #fafafa;
+  cursor: pointer;
+  position: relative;
+  transition: all 300ms;
+  outline: 0;
+  text-align: center;
+
+  &:hover {
+    border: 1px dashed #40a9ff;
+  }
+
+  .file-uploader {
+    position: relative;
+    display: none;
+  }
+
+  .title {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: #111;
+  }
+
+  .sub-title {
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.45);
+    text-align: center;
+  }
+}

@@ -1,0 +1,24 @@
+.tb-css-news-bottom {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background-color: rgba(210, 210, 210, 0.5);
+  padding: 12px;
+
+  .desc {
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 12px;
+  }
+
+  .btns-wrap {
+    text-align: center;
+
+    .submit-btn {
+      background-color: #212121;
+      color: #fff;
+      border: 0;
+      padding: 5px 20px;
+    }
+  }
+}

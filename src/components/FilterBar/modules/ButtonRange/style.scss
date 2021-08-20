@@ -1,0 +1,17 @@
+.button-range-wrap {
+  padding: 0 10px;
+  background-color: #fffaf5;
+
+  .range-option {
+    padding: 10px 0;
+    border-bottom: 1px solid #e9e8e7;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    font-size: 12px;
+
+    &:last-child {
+      border-bottom: 0;
+    }
+  }
+}

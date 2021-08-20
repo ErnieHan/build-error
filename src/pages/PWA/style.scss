@@ -1,0 +1,91 @@
+.pwa-page-wrap {
+  position: relative;
+
+  .fixed-head {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 8px;
+    z-index: 10;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+    .flex-content {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+    }
+
+    .searchbar-wrap {
+      flex-grow: 1;
+    }
+
+    .icon-wrap {
+      margin-left: 8px;
+    }
+
+    .searchbar {
+      width: 100%;
+      background: #e9e8e7;
+      border: 0;
+      border-radius: 2px;
+      padding: 0;
+      outline: 0;
+      padding: 8px;
+      font-weight: 400;
+
+      &::placeholder {
+        color: #ff5722;
+      }
+
+      &:focus {
+        &::placeholder {
+          color: #a0a0a0;
+        }
+      }
+    }
+  }
+
+  .content-body {
+    // background-color: #ff5722;
+    min-height: 200vh;
+
+    .home-banner {
+      width: 100%;
+      padding-top: 50px;
+    }
+
+    .quick-options-wrap {
+      width: 100%;
+      padding: 16px;
+      padding-bottom: 0px;
+      background-color: #fff;
+
+      .scroll-wrap {
+        overflow-x: scroll;
+      }
+
+      .flex-content {
+        display: flex;
+
+        .option-btn {
+          width: 84px;
+          flex-shrink: 0;
+          margin-right: 16px;
+          margin-bottom: 16px;
+          text-align: center;
+          cursor: pointer;
+
+          .icon {
+            width: 42px;
+          }
+
+          .sub-title {
+            font-size: 10px;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+.tb-css-news-top {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #e8e8e8;
+  font-size: 12px;
+
+  #news-top {
+    max-width: 600px;
+    margin: 0 auto;
+
+    .swiper-slide {
+      font-weight: 100;
+      text-align: center;
+      padding: 6px 0;
+
+      .color-tan {
+        color: #c69967;
+        margin: 0 3px;
+      }
+    }
+  }
+}

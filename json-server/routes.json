@@ -1,0 +1,5 @@
+{
+  "/rest/pcms3/v1/catalogItems/search": "/catalogItemsSearch",
+  "/eshop-hk/api/shopping/v1/stores/search*": "/stores",
+  "/eshop-hk/api/shopping/v1/channelCatalogItems/itemList*": "/products"
+}

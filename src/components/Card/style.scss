@@ -1,0 +1,47 @@
+.pdt-card-wrap {
+  width: 25%;
+  margin-bottom: 20px;
+
+  .image-wrap {
+    display: block;
+    width: 100%;
+    padding-bottom: 100%;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    .main-pdt-image {
+      position: absolute;
+      width: 100%;
+      top: 0;
+      left: 0;
+      transition: all 300ms ease;
+    }
+
+    &:hover {
+      .main-pdt-image {
+        opacity: 0;
+      }
+    }
+  }
+
+  .desc-wrap {
+    .brand {
+      font-size: 15px;
+    }
+    .name {
+      font-size: 12px;
+    }
+    .price {
+      font-size: 12px;
+      color: #c69967;
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .pdt-card-wrap {
+    width: 50%;
+  }
+}

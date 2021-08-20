@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+
+.products-wrap {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  z-index: 5;
+
+  .products-swiper {
+    .swiper-wrapper {
+      width: 100%;
+      margin: auto;
+      overflow: visible;
+    }
+
+    .swiper-slide {
+      text-align: center;
+
+      &.swiper-slide-active {
+        z-index: 99;
+
+        .pdt-block {
+          transform: scale(1.25);
+          margin: 0 32px;
+
+          .brand,
+          .name {
+            color: #c69967;
+          }
+        }
+      }
+
+      .pdt-block {
+        transform: scale(0.7);
+      }
+    }
+  }
+
+  .pdt-block {
+    transition: all 300ms;
+
+    .desc-wrap {
+      position: relative;
+      top: -88px;
+    }
+
+    .brand {
+      font-size: 48px;
+      color: #e9e8e7;
+      font-family: 'Playfair Display', serif;
+      transition: all 600ms;
+    }
+
+    .name {
+      font-size: 32px;
+      line-height: 32px;
+      color: #e9e8e7;
+      font-family: 'Playfair Display', serif;
+      transition: all 600ms;
+    }
+  }
+}

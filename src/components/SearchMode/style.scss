@@ -1,0 +1,57 @@
+.search-mode-wrap {
+  position: relative;
+  background-color: #dfb585;
+  padding: 12px;
+
+  .form-wrap {
+    width: 100%;
+    margin-bottom: 12px;
+  }
+
+  .searchbar {
+    background-color: transparent;
+    border: 1px solid #fff;
+    outline: 0;
+    color: #fff;
+    width: 100%;
+    padding: 6px 12px;
+    border-radius: 5px;
+    font-size: 12px;
+
+    &::placeholder {
+      color: #fff;
+    }
+  }
+
+  .mode-select {
+    width: 100%;
+    outline: 0;
+    appearance: none;
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 5px;
+    padding: 6px 12px;
+    margin-bottom: 12px;
+  }
+
+  .buttons-wrap {
+    width: 100%;
+    margin-bottom: 12px;
+
+    .goods-btn {
+      width: 33.33%;
+      padding: 8px;
+      background-color: transparent;
+      border: 1px solid #fff;
+      color: #fff;
+      font-size: 12px;
+      border-radius: 5px;
+    }
+  }
+
+  .mode-wrap {
+    color: #fff;
+  }
+}
